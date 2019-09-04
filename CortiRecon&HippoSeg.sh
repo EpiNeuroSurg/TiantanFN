@@ -21,5 +21,3 @@ freeview -v $s/mri/nu.mgz -v $s/mri/lh.hippoAmygLabels-T1.v21.mgz:colormap=lut -
 done
 quantifyHAsubregions.sh hippoSf T1 vol_hippo.csv
 quantifyHAsubregions.sh amygNuc T1 vol_amy.csv
-
-aaa
