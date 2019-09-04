@@ -8,5 +8,3 @@ mris_fwhm --s "$s" --hemi "$h" --cortex --smooth-only --fwhm 5 --i "$s"/surf/"$h
 mri_segstats --in ${SUBJECTS_DIR}/$s/surf/"$h".gradient.sm5.mgh --annot $s "$h" aparc --sum ${SUBJECTS_DIR}/$s/stats/"$h".gradient.sm5.stats --snr
 done
 done
-
-aaa
